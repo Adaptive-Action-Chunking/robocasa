@@ -1,6 +1,6 @@
 # Adaptive Action Chunking at Inference-time for Vision-Language-Action Models (RoboCasa Evaluation)
 
-This is the official codebase of AAC:
+This is the official codebase of AAC.
 
 [**[Home page]**](https://lance-lot.github.io/adaptive-chunking.github.io/) &ensp; [**[Paper]**](https://arxiv.org/abs/2604.04161)
 
@@ -65,7 +65,7 @@ python inference_client_action_entropy.py --out_path /home/sangfor/Videos/roboca
 
 Configure --task for different tasks in RoboCasa, set --port according to your policy server.
 
-Refer to robocasa/demos/action_optimization/AAC_evaluation.sh for more example scripts.
+Refer to [robocasa/demos/action_optimization/AAC_evaluation.sh](https://github.com/Adaptive-Action-Chunking/robocasa/blob/main/robocasa/demos/action_optimization/AAC_evaluation.sh) for more example scripts.
 
 Note that default max_steps is 600, but for the task OpenDoubleDoor max_steps is set to 1200 to allow enough time to finish this long horizon task.
  
