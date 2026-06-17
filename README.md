@@ -1,6 +1,8 @@
 # Adaptive Action Chunking at Inference-time for Vision-Language-Action Models (RoboCasa Evaluation)
 
-This is the official codebase of AAC.
+This is the official codebase of AAC for RoboCasa evaluation. The exmaple GR00T policy server is provided here: [GR00T N1.5 Multi-sample](https://github.com/Adaptive-Action-Chunking/gr00t-multi-sample).
+
+Other simulation clients to AAC evaluation can be found here [LIBERO](https://github.com/Adaptive-Action-Chunking/libero), [LIBERO-PRO](https://github.com/Adaptive-Action-Chunking/libero-pro).
 
 [**[Home page]**](https://lance-lot.github.io/adaptive-chunking.github.io/) &ensp; [**[Paper]**](https://arxiv.org/abs/2604.04161)
 
@@ -14,7 +16,7 @@ Note:
 If you want to align the RoboCasa version with our experiments, you can use the command below to specify the RoboCasa code base version.
 
 In the project folder of RoboCasa:
-```
+```sh
 git checkout 0eae0634a61ad2be33962c9de7000a2dd1ee573f
 ```
 
